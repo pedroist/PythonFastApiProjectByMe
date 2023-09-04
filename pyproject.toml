@@ -9,6 +9,7 @@ python = "^3.9"
 fastapi = "^0.103.1"
 SQLAlchemy = "^2.0.20"
 alembic = "^1.12.0"
+uvicorn = "^0.23.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

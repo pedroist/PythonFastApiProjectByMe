@@ -276,6 +276,17 @@ checkqa-mypy = ["mypy (==v0.761)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
 [[package]]
+name = "python-multipart"
+version = "0.0.6"
+description = "A streaming multipart parser for Python"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+dev = ["atomicwrites (==1.2.1)", "attrs (==19.2.0)", "coverage (==6.5.0)", "hatch", "invoke (==1.7.3)", "more-itertools (==4.3.0)", "pbr (==4.3.0)", "pluggy (==1.0.0)", "py (==1.11.0)", "pytest-cov (==4.0.0)", "pytest-timeout (==2.1.0)", "pytest (==7.2.0)", "pyyaml (==5.1)"]
+
+[[package]]
 name = "sniffio"
 version = "1.3.0"
 description = "Sniff out which async library your code is running under"
@@ -369,7 +380,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "2bce06f06a2ef92935ae43edc501e3a0ac1e250d9b25d926b3b1eb3378e2a3e4"
+content-hash = "3d687f72981aeab8c3f481e736d3eb29568d1de26a10da4257adc7809186418d"
 
 [metadata.files]
 alembic = []
@@ -398,6 +409,7 @@ py = [
 pydantic = []
 pydantic-core = []
 pytest = []
+python-multipart = []
 sniffio = []
 sqlalchemy = []
 starlette = []

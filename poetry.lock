@@ -183,14 +183,6 @@ optional = false
 python-versions = ">=3.8"
 
 [[package]]
-name = "multipart"
-version = "0.2.4"
-description = "Parser for multipart/form-data."
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "packaging"
 version = "23.1"
 description = "Core utilities for Python packages"
@@ -377,7 +369,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "71a2ac50fc24d9278cbbadcbb3c6fb934d5cfe8c6105a8d11e47f9d348a3251c"
+content-hash = "2bce06f06a2ef92935ae43edc501e3a0ac1e250d9b25d926b3b1eb3378e2a3e4"
 
 [metadata.files]
 alembic = []
@@ -396,7 +388,6 @@ idna = []
 mako = []
 markupsafe = []
 more-itertools = []
-multipart = []
 packaging = []
 passlib = []
 pluggy = []

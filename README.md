@@ -26,7 +26,7 @@ brew list
 ```
 
 ```sh
-sqlite3 todos.db
+sqlite3 todosapp.db
 
 .schema (returns schema of todos.db)
 

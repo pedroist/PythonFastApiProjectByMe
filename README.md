@@ -45,3 +45,10 @@ To change the display mode:
 .mode table
 .mode box
 ```
+
+###Generate Secret key:
+On the terminal:
+
+```sh
+openssl rand -hex 32
+```

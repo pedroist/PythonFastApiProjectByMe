@@ -14,6 +14,7 @@ class Users(Base):
     is_active = Column(Boolean, default=True)
     role = Column(String)
 
+
 class Todos(Base):
     __tablename__ = "todos"
 
@@ -22,4 +23,4 @@ class Todos(Base):
     description = Column(String)
     priority = Column(Integer)
     complete = Column(Boolean, default=False)
-    owner = Column(Integer, ForeignKey("users.id"))
+    owner_id = Column(Integer, ForeignKey("users.id"))

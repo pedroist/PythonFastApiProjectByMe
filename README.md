@@ -52,3 +52,10 @@ On the terminal:
 ```sh
 openssl rand -hex 32
 ```
+
+###Using MySQL
+ Had to install with pip:
+
+ ```sh
+pip install pymysql
+```

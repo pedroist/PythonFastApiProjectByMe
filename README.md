@@ -53,9 +53,15 @@ On the terminal:
 openssl rand -hex 32
 ```
 
-###Using MySQL
+###Using MySQL:
  Had to install with pip:
 
  ```sh
 pip install pymysql
 ```
+
+###Alembic:
+```sh
+alembic init alembic
+```
+It creates a folder called 'alembic'

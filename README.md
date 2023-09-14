@@ -65,3 +65,17 @@ pip install pymysql
 alembic init alembic
 ```
 It creates a folder called 'alembic'
+
+Then we need to config alembic (files alembic.ini and alembic/env.py)
+
+Then, create the revision:
+
+```sh
+alembic revision -m "create phone number for user col"
+```
+
+Then after changing the revision file, apply the changes to the database by running:
+
+```sh
+alembic upgrade <revision_number>
+```

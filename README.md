@@ -79,3 +79,9 @@ Then after changing the revision file, apply the changes to the database by runn
 ```sh
 alembic upgrade <revision_number>
 ```
+
+To downgrade this version:
+
+```sh
+alembic downgrade -1
+```
